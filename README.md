@@ -10,10 +10,14 @@ KERT-Backend-Study/
 ├── README.md
 ├── .github/
 │   └── pull_request_template.md
-└── week01/
-    ├── ASSIGNMENT.md            ← 1주차 과제 안내
+├── week01/
+│   ├── ASSIGNMENT.md            ← 1주차 과제 안내
+│   ├── README.md
+│   └── practice.js              ← 연습 문제 (채점 코드 포함)
+└── week02/
+    ├── ASSIGNMENT.md            ← 2주차 과제 안내
     ├── README.md
-    └── practice.js              ← 연습 문제 (채점 코드 포함)
+    └── check.js                 ← 점검 코드 (서버를 켠 상태에서 실행)
 ```
 
 주차가 진행되면 운영진이 `week02/`, `week03/` … 폴더를 이 레포에 추가합니다.
@@ -98,7 +102,7 @@ Fork한 레포에서 PR을 만들면 base가 **원 레포로 기본 선택**되�
 
 ### 5. 내 main 에 머지
 
-PR 화면 아래 **Merge pull request** → **Confirm merge**하여
+PR 화면 아래 **Merge pull request** 옆 ▼ 에서 **Squash and merge** 선택 → **Confirm squash and merge**하여
 로컬도 최신으로 맞춰주세요!
 
 ```bash
@@ -132,3 +136,4 @@ git pull
 | 주차 | 폴더 | 주제 | 마감 |
 |---|---|---|---|
 | 1주차 | [week01](./week01/ASSIGNMENT.md) | 개발 환경, JavaScript, 첫 Express 서버 | 10/9(금) 23:59 |
+| 2주차 | [week02](./week02/ASSIGNMENT.md) | EJS 템플릿과 폼으로 게시판 만들기 | 10/16(금) 23:59 |
